@@ -30,7 +30,7 @@ github_username:  alaut
 instagram_username: lautalexander
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
