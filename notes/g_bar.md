@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: $\bar{g}$
 author: Alexander Laut
 ---
@@ -7,9 +7,13 @@ author: Alexander Laut
 ## Motivation
 
 The induced wakefield voltage for a particle traveling within a longitudinal bunch $\lambda(\tau)$ influenced by a longitudinal impedance $Z/n$ is given by
+
 $$V_{W} = -\frac{1}{\omega}\frac{Z}{n}\frac{d\lambda}{d\tau},$$
+
 where the space-charge impedance is defined by
+
 $$\frac{Z}{n} = -j\frac{Z_0}{\beta \gamma^2}g,$$
+
 and geometry factor $g$ for a particle within a long round bunch of radius $a$ within a conductive beam pipe of radius $b$ is given by:
 
 $$g = \frac{1}{2} + \ln\frac{b}{a}-\frac{1}{2}\frac{r^2}{a^2}$$
@@ -19,6 +23,7 @@ Typically in longitudinal trackers, the maximum geometry factor is applied homog
 ## Analysis
 
 Integrated around the ring, the effective geometry factor $\bar{g}$ can be computed by
+
 $$\bar{g} = \frac{1}{2} + \ln\frac{b}{\bar{a}} -\frac{\overline{r^2}}{\bar{a}^2}$$
 
 where:
