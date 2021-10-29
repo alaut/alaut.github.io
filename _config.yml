@@ -31,8 +31,8 @@ instagram_username: lautalexander
 
 # Build settings
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 #   - jekyll-katex
 
 # Exclude from processing.
