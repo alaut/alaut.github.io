@@ -31,9 +31,9 @@ instagram_username: lautalexander
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-katex
+# plugins:
+#   - jekyll-feed
+#   - jekyll-katex
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,3 +56,6 @@ plugins:
 #   - vendor/ruby/
 
 markdown: GFM
+
+collections:
+  - notes

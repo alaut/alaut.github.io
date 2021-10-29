@@ -1,4 +1,6 @@
 ---
+layout: post
+date: October 28, 2021
 title: The Effective Geometry Factor $\bar{g}$
 author: Alexander Laut
 ---
