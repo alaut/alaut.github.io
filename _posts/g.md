@@ -1,11 +1,7 @@
 ---
-layout: page
 title: Space Charge Geometry Factor
 author: Alexander Laut
 ---
-
-
-# Fields of Round Beams
 
 ## Longitudinal Fields in a Conducting Cylinder
 
@@ -37,8 +33,8 @@ $$E_r(r', z+\Delta z)-E_r(r', z) = \frac{\partial E_r(r', z)}{\partial z}\Delta 
 Since $dz = -vdt$:
 
 $$\begin{aligned}
-E_z(r,z)-E_z(b,z)&= -\int_r^b\left[\frac{\partial E_r(r', z)}{\partial z}+\frac{\partial B_{\theta}(r', z)}{\partial t}\right]dr'\\
-&=-\frac{\partial}{\partial z}\int_r^b[E_r(r',z)-vB_{\theta}(r',z)]dr'\\
+E_z(r,z)-E_z(b,z)&= -\int_r^b\left[\frac{\partial E_r(r', z)}{\partial z}+\frac{\partial B_{\theta}(r', z)}{\partial t}\right]dr'\cr
+&=-\frac{\partial}{\partial z}\int_r^b[E_r(r',z)-vB_{\theta}(r',z)]dr'\cr
 &=-\frac{\partial}{\partial z}\int_r^b[E_r(r',z)-\beta^2E_r(r',z)]dr'
 \end{aligned}$$
 
@@ -117,9 +113,9 @@ $$E_r(r, z)=\frac{\lambda(z)}{2\pi\epsilon_0}\frac{1}{r}$$
 Our geometric factors are therefore:
 
 $$\begin{aligned}
-g(r<a) &= \int_r^a \frac{r'}{a^2}dr'+\int_a^b\frac{1}{r'}dr'\\
-&= \frac{1}{2}\frac{r'^2}{a^2}\Big|_r^a + \ln(r')\Big|^b_a \\
-&=  \frac{1}{2} - \frac{1}{2}\frac{r^2}{a^2} + \ln\left(\frac{b}{a}\right)\\
+g(r<a) &= \int_r^a \frac{r'}{a^2}dr'+\int_a^b\frac{1}{r'}dr'\cr
+&= \frac{1}{2}\frac{r'^2}{a^2}\Big|_r^a + \ln(r')\Big|^b_a \cr
+&=  \frac{1}{2} - \frac{1}{2}\frac{r^2}{a^2} + \ln\left(\frac{b}{a}\right)\cr
 \end{aligned}$$
 
 and:
@@ -141,10 +137,10 @@ We can then define our relative enclosed charge $f(r)$.
 For r < a:
 
 $$\begin{aligned}
-f(r) &= \frac{2\pi}{Q}\int_0^r\rho(r')r'dr' \\
-&= \frac{4}{a^2}\int_0^rr'(1-\frac{r'^2}{a^2})dr'\\
-&= \frac{4}{a^2}\left(\frac{r'^2}{2}\Big|_0^r -\frac{r'^4}{4a^2}\Big|_0^r\right)\\
-&= \frac{4}{a^2}\left(\frac{r^2}{2}-\frac{r^4}{4a^2}\right)\\
+f(r) &= \frac{2\pi}{Q}\int_0^r\rho(r')r'dr' \cr
+&= \frac{4}{a^2}\int_0^rr'(1-\frac{r'^2}{a^2})dr'\cr
+&= \frac{4}{a^2}\left(\frac{r'^2}{2}\Big|_0^r -\frac{r'^4}{4a^2}\Big|_0^r\right)\cr
+&= \frac{4}{a^2}\left(\frac{r^2}{2}-\frac{r^4}{4a^2}\right)\cr
 &= 2\frac{r^2}{a^2}-\frac{r^4}{a^4}
 \end{aligned}$$
 
@@ -155,8 +151,8 @@ $$f(r) = 1$$
 Therefore our geometric factor is defined by:
 
 $$\begin{aligned}
-g(r<a) &= \int_r^a \frac{1}{r'}\left(2\frac{r'^2}{a^2}-\frac{r'^4}{a^4}\right)dr'+ \int_a^b\frac{dr'}{r'}\\
-&=\frac{r'^2}{a^2}\Big|_r^a-\frac{r'^4}{4a^4}\Big|_r^a + \ln\left(r'\right)\Big|_a^b\\
+g(r<a) &= \int_r^a \frac{1}{r'}\left(2\frac{r'^2}{a^2}-\frac{r'^4}{a^4}\right)dr'+ \int_a^b\frac{dr'}{r'}\cr
+&=\frac{r'^2}{a^2}\Big|_r^a-\frac{r'^4}{4a^4}\Big|_r^a + \ln\left(r'\right)\Big|_a^b\cr
 &= \ln\left(\frac{b}{a}\right) + \frac{a^2-r^2}{a^2} - \frac{a^4-r^4}{4a^4}
 \end{aligned}$$
 
@@ -177,9 +173,9 @@ $$f(r) = \frac{\int_0^r\rho(r')r'dr}{\int_0^\infty \rho(r')r'dr} = \frac{1}{2\pi
 Therefore:
 
 $$\begin{aligned}
-g(r) &= \int_r^b\frac{1}{r'}\left(1-\exp\left(-\frac{r'^2}{2\sigma_r^2}\right)\right)dr'\\
-&=\int_r^b\frac{dr'}{r'} -\int_r^b\frac{1}{r'}\exp\left(-\frac{r^2}{2\sigma_r^2}\right)dr'\\
-&= \ln(r')\Big|_r^b -\frac{1}{2}\text{Ei}\left(-\frac{r'^2}{2\sigma_r^2}\right)\Big|_r^b\\
+g(r) &= \int_r^b\frac{1}{r'}\left(1-\exp\left(-\frac{r'^2}{2\sigma_r^2}\right)\right)dr'\cr
+&=\int_r^b\frac{dr'}{r'} -\int_r^b\frac{1}{r'}\exp\left(-\frac{r^2}{2\sigma_r^2}\right)dr'\cr
+&= \ln(r')\Big|_r^b -\frac{1}{2}\text{Ei}\left(-\frac{r'^2}{2\sigma_r^2}\right)\Big|_r^b\cr
 &= \ln\left(\frac{b}{r}\right)-\frac{1}{2}\left(\text{Ei}(-\frac{b^2}{2\sigma_r^2})-\text{Ei}(-\frac{r^2}{2\sigma_r^2})\right)
 \end{aligned}$$
 

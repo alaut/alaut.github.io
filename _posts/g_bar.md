@@ -1,6 +1,5 @@
 ---
-layout: page
-title: $\bar{g}$
+title: The Effective Geometry Factor $\bar{g}$
 author: Alexander Laut
 ---
 
@@ -37,7 +36,7 @@ $$\overline{r^2} = \frac{\beta}{2}(\epsilon_x+\epsilon_y)+D^2\delta^2$$
 A particle's transverse position around a ring defined by optics $\beta(s) \approx \beta$ and $D(s) \approx D$ is given by
 
 $$\begin{aligned}
-x &= \sqrt{\beta \epsilon_x}\cos\phi_x+D\delta\\
+x &= \sqrt{\beta \epsilon_x}\cos\phi_x+D\delta \cr
 y &= \sqrt{\beta\epsilon_y}\cos\phi_y
 \end{aligned}$$
 
@@ -78,7 +77,7 @@ $$a = \sqrt{a_y a_y} = 2\sqrt{\sigma_x\sigma_y}$$
 where:
 
 $$\begin{aligned}
-\sigma_x^2 &=\beta\sigma_\epsilon + D^2\sigma_\delta^2\\
+\sigma_x^2 &=\beta\sigma_\epsilon + D^2\sigma_\delta^2\cr
 \sigma_y^2 &= \beta\sigma_\epsilon
 \end{aligned}$$
 
@@ -105,7 +104,7 @@ $$\overline{\ln r} = ?$$
 Because $\overline{\ln r} = \frac{1}{2}\overline{\ln r^2}$ and that:
 
 $$\begin{aligned}
-\overline{\ln r^2} &= \frac{1}{2\pi}\oint \ln r^2d \theta\\
+\overline{\ln r^2} &= \frac{1}{2\pi}\oint \ln r^2d \theta\cr
 &= \frac{1}{2\pi}\oint_0^{2\pi} \ln\left(\beta(\epsilon_x\cos^2\phi_x + \epsilon_y\cos^2\phi_y)+D^2\delta^2+2\sqrt{\beta\epsilon_x}\cos\phi_xD\delta\right)d\theta
 \end{aligned}$$
 
