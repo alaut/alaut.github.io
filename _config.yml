@@ -58,4 +58,5 @@ plugins:
 markdown: GFM
 
 collections:
-  - notes
+  notes:
+    output: true
