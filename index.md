@@ -2,8 +2,6 @@
 layout: page
 ---
 
-## Introduction
-
 Hi! Here's my little math/physics blog!
 
 ## Notes
