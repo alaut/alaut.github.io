@@ -1,11 +1,11 @@
 ---
 layout: post
 date: October 28, 2021
-title: The Effective Geometry Factor $\bar{g}$
+title: $\bar{g}$
 author: Alexander Laut
 ---
 
-## Motivation
+## The Effective Geometry Factor
 
 The induced wakefield voltage for a particle traveling within a longitudinal bunch $\lambda(\tau)$ influenced by a longitudinal impedance $Z/n$ is given by
 

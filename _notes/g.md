@@ -1,9 +1,11 @@
 ---
-title: Space Charge Geometry Factor
+layout: post
+title: $g$
 author: Alexander Laut
 ---
 
-## Longitudinal Fields in a Conducting Cylinder
+## The Space Charge Geometry Factor
+<!-- ## Longitudinal Fields in a Conducting Cylinder -->
 
 Consider a uniform round beam:
 
