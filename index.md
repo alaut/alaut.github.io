@@ -9,17 +9,17 @@ output:
     math: katex
 ---
 
-## Projects
+# Projects
 
-### [sylt](https://alaut.github.io/sylt) 
+## [sylt](https://alaut.github.io/sylt) 
 
 A longitudinal tracker for modeling synchrotron beam dynamics with intensity effects
 
-### [apres](https://alaut.github.io/apres)
+## [apres](https://alaut.github.io/apres)
 
 A toolkit used to reconstruct accelertor apertures using ray-casting.
 
-## Notes
+# Notes
 
 <ul>
 {% for item in site.notes %}
