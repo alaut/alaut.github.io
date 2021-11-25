@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Alex Laut
+title: Home
 ---
 
 ## Projects
