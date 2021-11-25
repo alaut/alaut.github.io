@@ -6,8 +6,6 @@ github_username:  alaut
 instagram_username: lautalexander
 
 theme: minima
-# plugins:
-#   - jekyll-feed
 
 kramdown:
   input: GFM
