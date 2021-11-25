@@ -2,18 +2,18 @@
 layout: page
 ---
 
-# Projects
+## Projects
 
-## [sylt](alaut.github.io/sylt) 
+### [sylt](alaut.github.io/sylt) 
 
 A longitudinal tracker for modeling synchrotron beam dynamics with intensity effects
 
 
-## [apres](alaut.github.io/apres)
+### [apres](alaut.github.io/apres)
 A toolkit used to reconstruct accelertor apertures using ray-casting.
 
 
-# Notes
+## Notes
 
 <ul>
 {% for item in site.notes %}
