@@ -33,8 +33,6 @@ $$\overline{r^2} = \frac{\beta}{2}(\epsilon_x+\epsilon_y)+D^2\delta^2$$
 
 <details>
 
----
-
 A particle's transverse position around a ring defined by optics $\beta(s) \approx \beta$ and $D(s) \approx D$ is given by
 
 $$\begin{aligned}
@@ -60,8 +58,6 @@ $$\overline{\cos x} = \lim_{x\to\infty} \int_0^x \cos x' dx' = 0$$
 
 $$\boxed{\overline{r^2} = \frac{\beta}{2}(\epsilon_x+\epsilon_y)+D^2\delta^2}$$
 
----
-
 </details>
 
 and
@@ -69,8 +65,6 @@ and
 $$\bar{a}=2\sqrt[4]{(\beta\sigma_\epsilon+D^2\sigma_\delta^2)(\beta\sigma_\epsilon)}$$
 
 <details>
-
----
 
 For the beam width $a$, if the beta function is approximated as constant throughout the ring, the beam radius is given by:
 
@@ -87,8 +81,6 @@ Because the optics optics are assumed invariant along the ring, the beam width i
 
 $$\boxed{\bar{a} = 2\sqrt[4]{(\beta\sigma_\epsilon+D^2\sigma_\delta^2)(\beta\sigma_\epsilon)}}$$
 
----
-
 </details>
 
 For fringe particles where $\overline{r^2} \geq \bar{a}^2$, the geometry factor is given by:
@@ -101,8 +93,6 @@ $$\overline{\ln r} = ?$$
 
 <details>
 
----
-
 Because $\overline{\ln r} = \frac{1}{2}\overline{\ln r^2}$ and that:
 
 $$\begin{aligned}
@@ -113,5 +103,5 @@ $$\begin{aligned}
 where:
 
 $$\phi = \frac{R\theta}{\beta}+ \phi_0$$
-
----
+  
+</details>
