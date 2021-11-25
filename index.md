@@ -1,6 +1,12 @@
 ---
-layout: home
 title: Home
+author: Alexander Laut
+date: November 25, 2021
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    math: katex
 ---
 
 ## Projects
