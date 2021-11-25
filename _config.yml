@@ -5,9 +5,9 @@ description: Nuclear Engineer / Accelerator Physicist
 github_username:  alaut
 instagram_username: lautalexander
 
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
+# theme: jekyll-theme-cayman
+# plugins:
+#   - jekyll-feed
 
 kramdown:
   input: GFM
@@ -15,3 +15,7 @@ kramdown:
 collections:
   notes:
     output: true
+    
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
