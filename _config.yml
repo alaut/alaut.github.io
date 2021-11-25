@@ -5,7 +5,7 @@ description: Nuclear Engineer / Accelerator Physicist
 github_username:  alaut
 instagram_username: lautalexander
 
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
