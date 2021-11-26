@@ -1,4 +1,5 @@
 ---
+layout: post
 author: Alexander J. Laut
 title: Möller–Trumbore Intersection algorithm
 date: April 23, 2021
