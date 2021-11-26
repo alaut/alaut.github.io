@@ -12,7 +12,7 @@ A longitudinal tracker for modeling synchrotron beam dynamics with intensity eff
 
 ### [apres](https://alaut.github.io/apres)
 
-A toolkit used to reconstruct accelertor apertures using ray-casting.
+A toolkit used to reconstruct accelerator apertures using ray-casting.
 
 ## Notes
 
