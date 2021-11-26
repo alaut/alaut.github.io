@@ -1,12 +1,9 @@
 ---
 layout: post
-title: LBD
+title: Longitudinal Beam Dynamics
 author: Alexander Laut
+date: November 26, 2021
 ---
-
-## Longitudinal Beam Dynamics
-
-# Time Energy Coordaintes
 
 Noting:
 
