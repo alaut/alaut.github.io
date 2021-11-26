@@ -1,8 +1,8 @@
 ---
 layout: post
-date: October 28, 2021
-title: $\bar{g}$
+title: The Effective Space Charge Geometry Factor ($\bar{g}$)
 author: Alexander Laut
+date: October 28, 2021
 ---
 
 ## The Effective Geometry Factor
@@ -83,7 +83,7 @@ $$\boxed{\bar{a} = 2\sqrt[4]{(\beta\sigma_\epsilon+D^2\sigma_\delta^2)(\beta\sig
 
 </details>
 
-For fringe particles where $\overline{r^2} \geq \bar{a}^2$, the geometry factor is given by:
+<!-- For fringe particles where $\overline{r^2} \geq \bar{a}^2$, the geometry factor is given by:
 
 $$\bar{g} = \overline{\ln \frac{b}{r}} = \ln b - \overline{\ln r}$$
 
@@ -104,4 +104,4 @@ where:
 
 $$\phi = \frac{R\theta}{\beta}+ \phi_0$$
   
-</details>
+</details> -->
