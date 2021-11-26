@@ -1,10 +1,10 @@
 ---
 layout: post
-title: SC
+title: Longitudinal Space Charge Impedance
 author: Alexander J. Laut
 ---
 
-## Space Charge
+## Wakefields
 
 A __wake potential__ $V_W$ is defined by:
 
@@ -43,7 +43,7 @@ For harmonics $n = f/f_{rev}$:
 
 $$V_{ind}(\tau) = -f_{rev}\sum_{n=-\infty}^\infty S(nf_{rev})\mathcal{Z}(nf_{rev})e^{i2\pi f_{rev}\tau}$$
 
-# Small Amplitude Oscillations
+## Small Amplitude Oscillations
 
 As a reminder, in normal synchrotron oscillations, we have that the particles within a bunch make quasi-elliptical orbits at the synchrotron frequency $\Omega_s = \omega_s$ in ($\Delta E- \Delta t$) phase space according to the following:
 
@@ -106,14 +106,13 @@ $$Z(f) = R(f) + j X(f)$$
 
 As it is defined by the fourier transform of the real wake potential, it is hermitian (as is the spectrum) if it is hermitian, $R(f)$ is even and $X(f)$ is odd:
 
-# Equations of Motion
+## Equations of Motion
 
 If we now recite our equation of motion:
 
 $$\ddot{\phi}+\frac{h\omega_s^2\eta}{2\pi\beta_s^2E_s}\left(qV_g g(\phi)+qV_{ind}\right)=0$$
 
 Or equivalently:
-
 
 $$\ddot{\tau} + \frac{\eta}{\beta_s^2E_sT_{rev}}q\left(V_g g(h\omega_s\tau)+V_{ind}(\tau)\right) = 0$$
 
