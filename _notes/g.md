@@ -1,14 +1,16 @@
 ---
 layout: post
-title: $g$
+title: The Space Charge Geometry Factor ($g$)
 author: Alexander Laut
+date: Nov 26, 2021
 ---
 
-## The Space Charge Geometry Factor
-<!-- ## Longitudinal Fields in a Conducting Cylinder -->
+## Longitudinal Fields in a Conducting Cylinder
 
 Consider a uniform round beam:
 
+<details>
+  
 <!-- ![Field Schematic of Coasting Beam](./figs/amperian_surface.drawio.svg) -->
 
 From ampere's law:
@@ -16,8 +18,6 @@ From ampere's law:
 $$\nabla \times \vec{E} = -\frac{\partial B}{\partial t} \to \oint \vec{E}\cdot d\vec{l} = -\frac{\partial}{\partial t}\iint_S\vec{B}\cdot d\vec{A}$$
 
 and by defining the following integration path/surface through a round charge distribution:
-
-
 
 $$\begin{aligned}
 \oint \vec{E}\cdot d\vec{l} = E_z(r,z)\Delta z + \int_r^bE_r(r', z+\Delta z)dr'-E_z(b, z)\Delta z -\int_r^bE_r(r', z)dr'
@@ -43,6 +43,8 @@ E_z(r,z)-E_z(b,z)&= -\int_r^b\left[\frac{\partial E_r(r', z)}{\partial z}+\frac{
 Therefore:
 
 $$E_z(r,z) = E_z(b,z)-(1-\beta^2)\frac{\partial}{\partial z}\int_r^bE_r(r',z)dr'$$
+
+</details>
 
 The longitudinal self fields  for a beam in a conductive pipe of radius __b__ are:
 
@@ -96,6 +98,8 @@ $$\bar{g} = \int_r^b\frac{f(r')}{r'}dr' \qquad f(r) =  \frac{\int_0^r \rho(r') r
 
 ## Uniform Round Beam
 
+<details>
+
 A uniform charge distribution in a cylindrical beam is defined by constant surface charge density:
 
 $$\rho(r) = \sigma = \frac{Q}{\pi a^2}$$
@@ -112,6 +116,8 @@ $$f(r) = 1$$
 
 $$E_r(r, z)=\frac{\lambda(z)}{2\pi\epsilon_0}\frac{1}{r}$$
 
+</details>
+
 Our geometric factors are therefore:
 
 $$\begin{aligned}
@@ -126,6 +132,8 @@ $$g(r>a) = \int_r^b\frac{1}{r'}dr' = \ln\left(\frac{b}{r}\right)$$
 
 ## Parabolic Round Beam
 
+<details>
+  
 We can define a radial parabolic charge distribution of width $a$ with the following:
 
 $$\rho(r) = \frac{2Q}{\pi a^2}\left(1-\frac{r^2}{a^2}\right)$$
@@ -152,6 +160,8 @@ $$f(r) = 1$$
 
 Therefore our geometric factor is defined by:
 
+</details>
+
 $$\begin{aligned}
 g(r<a) &= \int_r^a \frac{1}{r'}\left(2\frac{r'^2}{a^2}-\frac{r'^4}{a^4}\right)dr'+ \int_a^b\frac{dr'}{r'}\cr
 &=\frac{r'^2}{a^2}\Big|_r^a-\frac{r'^4}{4a^4}\Big|_r^a + \ln\left(r'\right)\Big|_a^b\cr
@@ -163,6 +173,8 @@ and:
 $$g(r>a) = \int_r^b\frac{1}{r'}dr' = \ln\left(\frac{b}{r}\right)$$
 
 ## Gaussian Beam:
+
+<details>
 
 Given a radial charge distribution is defined by:
 
@@ -197,6 +209,10 @@ and:
 
 $$\gamma = \lim_{n\to\infty}\left(-\ln n +\sum_{k=1}^n\frac{1}{k}\right) \approx 0.57721$$
 
+</details>
+  
+$$\boxed{g(r) = \ln\left(\frac{b}{r}\right)-\frac{1}{2}\left(\text{Ei}(-\frac{b^2}{2\sigma_r^2})-\text{Ei}(-\frac{r^2}{2\sigma_r^2})\right)}$$
+  
 # Summary
 
 In summary we have the following geometric factors:
