@@ -11,7 +11,7 @@ Consider a uniform round beam:
 
 <details>
   
-<!-- ![Field Schematic of Coasting Beam](./figs/amperian_surface.drawio.svg) -->
+![Field Schematic of Coasting Beam](../assets/amperian_surface.drawio.svg)
 
 From ampere's law:
 
@@ -56,7 +56,7 @@ Considering a cylindrical bunch defined by it's linear charge density $\lambda(z
 
 $$Q = \lambda(z) \Delta z$$
 
-<!-- ![Integration Surfaces to Compute Radial Fields in Cylindrical Beam](./figs/gaussian_cylindrical_bunch.drawio.svg) -->
+![Integration Surfaces to Compute Radial Fields in Cylindrical Beam](../assets/round_beam.drawio.svg)
 
 We can define $f(r)$, the proportion of charge enclosed in a cylindrical area of radius $r$ can given by the radial charge density $\rho(r)$:
 
@@ -221,6 +221,6 @@ In summary we have the following geometric factors:
 
 We can visualize these distributions and geometric factors below:
 
-<!-- ![Charge Profiles with Subsequent Geometric Factors](./figs/geometric_factors.svg) -->
+![Charge Profiles with Subsequent Geometric Factors](../assets/g.svg)
 
 We observe that the resulting geometric factors used to represent the self fields of particles in or outside equivalently sized uniform, parabolic or gaussian are mostly equivalent.
