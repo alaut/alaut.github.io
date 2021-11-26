@@ -74,8 +74,6 @@ That:
 
 $$\vec{E_r}(r) \cdot 2\pi r \Delta z = \frac{f(r) \lambda(z)\Delta z}{\epsilon_0}$$
 
----
-
 The longitudinal self fields for a __round beam__ in a conductive pipe of radius __b__ is given by:
 
 $$E_z(r, z) = -\frac{1}{\gamma^2}\frac{\partial}{\partial z}\int_r^bE_r(r', z)dr'$$
@@ -91,8 +89,6 @@ $$\boxed{E_z = -\frac{\bar{g}}{2\pi\epsilon_0\gamma^2}\frac{\partial \lambda}{\p
 Where the __geometry factor__ $\bar{g}$ is defined by:
 
 $$\bar{g} = \int_r^b\frac{f(r')}{r'}dr' \qquad f(r) =  \frac{\int_0^r \rho(r') r' dr'}{\int_0^\infty \rho(r') r' dr'} = \frac{Q_{enc}}{Q}$$
-
----
 
 # Round Beam Profiles
 
