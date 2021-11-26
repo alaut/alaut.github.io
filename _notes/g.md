@@ -9,9 +9,9 @@ date: Nov 26, 2021
 
 Consider a uniform round beam:
 
-<details>
-  
 ![Field Schematic of Coasting Beam](../assets/amperian_surface.drawio.svg)
+
+<details>
 
 From ampere's law:
 
