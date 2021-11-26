@@ -1,10 +1,8 @@
 ---
 layout: post
-title: TBD
+title: Transverse Beam Dynamics
 author: Alexander Laut
 ---
-
-## Transverse Beam Dynamics
 
 The sollutions of the Hill's equations are generalized as follows:
 
