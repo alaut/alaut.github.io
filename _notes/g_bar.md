@@ -3,6 +3,7 @@ layout: post
 title: The Effective Space Charge Geometry Factor
 author: Alexander Laut
 date: October 28, 2021
+permalink: g_bar
 ---
 
 ## The Effective Geometry Factor

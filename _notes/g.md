@@ -3,6 +3,7 @@ layout: post
 title: The Space Charge Geometry Factor
 author: Alexander Laut
 date: Nov 26, 2021
+permalink: g
 ---
 
 ## Longitudinal Fields in a Conducting Cylinder
