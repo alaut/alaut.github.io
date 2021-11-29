@@ -16,9 +16,5 @@ A toolkit used to reconstruct accelerator apertures using ray-casting.
 
 ## Notes
 
-<!-- <ul> -->
-{% for item in site.notes %}
-<!--     <li><a href="{{ item.url }}">{{ item.title }}</a></li> -->
-    - [{{item.title}}]({{item.url}})
-{% endfor %}
-<!-- </ul> -->
+- [The Space Charge Geometry Factor](/g)
+- [The **Effective** Space Charge Geometry Factor](/g_bar)
