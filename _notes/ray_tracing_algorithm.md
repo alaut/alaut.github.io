@@ -3,6 +3,7 @@ layout: post
 author: Alexander J. Laut
 title: Möller–Trumbore Intersection algorithm
 date: April 23, 2021
+permalink: ray_casting
 ---
 
 This algorithm can efficiently detect and ccompute the intersections of a ray __q__ through a face __p__. Each ray is defined in 3-space as the trajectory from $q_1$ to $q_2$ such that our general ray matrix **q** with shape $[2 \times 3 \times \rm{nr}]$ is defined by such:

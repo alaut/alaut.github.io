@@ -18,3 +18,6 @@ A toolkit used to reconstruct accelerator apertures using ray-casting.
 
 - [The Space Charge Geometry Factor](/g)
 - [The **Effective** Space Charge Geometry Factor](/g_bar)
+- [Closed Quasi-Elliptical Shapes](/shapes)
+- [Generalized Quasi-Normal Distributions](/distributions)
+- [Ray Tracing Intersection Algorithm](/ray_casting)

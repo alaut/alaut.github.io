@@ -3,6 +3,7 @@ title: Quasi-Elliptical Shapes
 author: Alexander J. Laut
 date: March 10th, 2021
 layout: post
+permalink: shapes
 ---
 
 

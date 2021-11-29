@@ -3,6 +3,7 @@ title: Generalized Normal Distribution
 author: Alexander Laut
 date: November 26, 2021
 layout: post
+permalink: distributions
 ---
 
 A normal distribution is commonly defined by
