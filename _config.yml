@@ -7,9 +7,6 @@ instagram_username: lautalexander
 
 theme: minima
 
-kramdown:
-  input: GFM
-
 collections:
   notes:
     output: true
