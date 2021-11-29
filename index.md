@@ -18,6 +18,7 @@ A toolkit used to reconstruct accelerator apertures using ray-casting.
 
 <!-- <ul> -->
 {% for item in site.notes %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+<!--     <li><a href="{{ item.url }}">{{ item.title }}</a></li> -->
+    - [{{item.title}}]({{item.url}})
 {% endfor %}
 <!-- </ul> -->
