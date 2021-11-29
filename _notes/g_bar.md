@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Effective Space Charge Geometry Factor ($\bar{g}$)
+title: The Effective Space Charge Geometry Factor
 author: Alexander Laut
 date: October 28, 2021
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Space Charge Geometry Factor ($g$)
+title: The Space Charge Geometry Factor
 author: Alexander Laut
 date: Nov 26, 2021
 ---
