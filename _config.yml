@@ -8,8 +8,8 @@ instagram_username: lautalexander
 theme: minima
 
 kramdown:
-  math_engine: nil
-  
+  math_engine: null
+
 collections:
   notes:
     output: true
