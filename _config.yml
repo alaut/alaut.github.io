@@ -8,7 +8,7 @@ instagram_username: lautalexander
 theme: minima
 
 kramdown:
-  math_engine: null
+  math_engine: "nil"
 
 collections:
   notes:
