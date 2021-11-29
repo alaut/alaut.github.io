@@ -34,18 +34,18 @@ $$\boxed{V(a, b, c, d) = \frac{(d-a) \cdot ((b-a) \times (c-a))}{6}}$$
 Therefore, the signed volumes are can be defined by:
 
 $$\begin{aligned}
-s_1 = \text{sgn } V(q_1, p_1, p_2, p_3) \\
-s_2 = \text{sgn }V(q_2, p_1, p_2, p_3) \\
-s_3 = \text{sgn }V(q_1, q_2, p_1, p_2) \\
-s_4 = \text{sgn }V(q_1, q_2, p_2, p_3) \\
-s_5 = \text{sgn }V(q_1, q_2, p_3, p_1) \\
+s_1 = \text{sgn } V(q_1, p_1, p_2, p_3)\\
+s_2 = \text{sgn }V(q_2, p_1, p_2, p_3)\\
+s_3 = \text{sgn }V(q_1, q_2, p_1, p_2)\\
+s_4 = \text{sgn }V(q_1, q_2, p_2, p_3)\\
+s_5 = \text{sgn }V(q_1, q_2, p_3, p_1)\\
 \end{aligned}$$
 
-Where $V(r_1, r_2, r_3, r_4)$ is the signed volume of the tetrahedron debined by __r__.
+Where $V(r_1, r_2, r_3, r_4)$ is the signed volume of the tetrahedron defined by __r__.
 
 And intersection exists if:
 
-$$s_1 \neq s_2 \quad \& \quad s_3 = s_4 \quad \& \quad s_4 = s_5 $$
+$$s_1 \neq s_2 \quad \& \quad s_3 = s_4 \quad \& \quad s_4 = s_5$$
 
 It is implied by $s_1 \neq s_2$ that $q_1$ and $q_2$ lay on opposite sides of $p_k$
 

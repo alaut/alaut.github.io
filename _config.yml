@@ -7,7 +7,7 @@ instagram_username: lautalexander
 
 theme: minima
 
-markdown: GFM
+# markdown: GFM
 
 collections:
   notes:
