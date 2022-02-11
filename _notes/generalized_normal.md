@@ -20,7 +20,7 @@ The generalized distribution is given by
 
 $$f(x; m) = \frac{2\Gamma(3/2+m)}{L\sqrt{\pi}\Gamma(1+m)}\left[1-4\left(\frac{x-\mu}{L}\right)^2\right]^m,$$
 
-where
+where the variance is given by
 
 $$\sigma^2 = \frac{L^2}{4}\frac{1}{3+2m}.$$
 
