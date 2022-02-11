@@ -14,9 +14,9 @@ Approximating that
 
 $$\exp x = \lim_{n\to\infty}\left(1+\frac{x}{n}\right)^n,$$
 
-one can define a uniform distribution $(k=0)$, a parabolic distribution $(k=1)$, gaussian $(k=\infty)$, and everything in between.
+one can define a uniform $(k=0)$, parabolic $(k=1)$, and gaussian $(k=\infty)$ distribution profile.
 
-The normalized distributions is given by 
+The generalized distribution is given by 
 
 $$f(x; m) = \frac{2\Gamma(3/2+m)}{L\sqrt{\pi}\Gamma(1+m)}\left[1-4\left(\frac{x-\mu}{L}\right)^2\right]^m,$$
 
