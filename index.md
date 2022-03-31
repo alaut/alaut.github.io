@@ -14,6 +14,10 @@ A longitudinal tracker for modeling synchrotron beam dynamics with intensity eff
 
 A toolkit used to reconstruct accelerator apertures using ray-casting.
 
+## [filter-pack](https://alaut.github.io/filter-pack/)
+
+A toolkit used to characterize the X-Ray energy spectrum of thomson photons by transmission analysis through a filter pack on a single shot basis.
+
 ## Notes
 
 <ul>
